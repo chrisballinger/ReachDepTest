@@ -1,0 +1,8 @@
+use_frameworks!
+
+
+target 'ReachDepTest_Tests', :exclusive => true do
+  pod 'ReachDepTest', :path => '../'
+
+  
+end
