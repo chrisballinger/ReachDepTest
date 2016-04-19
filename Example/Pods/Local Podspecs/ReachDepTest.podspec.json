@@ -30,7 +30,10 @@
       "subspecs": [
         {
           "name": "Core",
-          "source_files": "ReachDepTest/Classes/ReachDepTest.{h,m}"
+          "source_files": [
+            "ReachDepTest/Classes/ReachDepTest.{h,m}",
+            "ReachDepTest/Classes/*.swift"
+          ]
         },
         {
           "name": "Extensions",

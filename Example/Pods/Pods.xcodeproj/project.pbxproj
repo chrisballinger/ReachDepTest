@@ -50,21 +50,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0A5487F7895DA642809E8734462B2F54</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>242055389D6541B1EAC9E01FD09F33EF</string>
-				<string>9E1A15FCB461AD8DBD9D7770C8AE8675</string>
-				<string>894CE683E497D1D36D2416D9865B4968</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>0A650186C27E53088D3A9EDA805D95F8</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -78,6 +63,13 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
+		</dict>
+		<key>0C59168CBABB5EE9E0E67954FA8F60B6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E53B7ABF65C49328640DF32EBB23CA47</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>0CC46A972EE2A40B65DB57C9A5DEA8C6</key>
 		<dict>
@@ -203,6 +195,21 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>153737781B4268C457D877021A9C55DF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7242161911E17119D0CB27308B440823</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ReachDepTest</string>
+			<key>path</key>
+			<string>ReachDepTest</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>2069359816AF87AD5AB4437BF174200B</key>
 		<dict>
 			<key>children</key>
@@ -229,13 +236,6 @@
 			<string>D5699F4FE39F92E7B05B7C003C618B70</string>
 			<key>remoteInfo</key>
 			<string>Reachability</string>
-		</dict>
-		<key>242055389D6541B1EAC9E01FD09F33EF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E53B7ABF65C49328640DF32EBB23CA47</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>25B277AB720BBE24A427C18D72E69859</key>
 		<dict>
@@ -308,7 +308,7 @@
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>B843F63B878B4A6EA7488A171704CB51</string>
+				<string>5B7CE27481A9EB2164A482DFA9ABCAC1</string>
 				<string>D0952B0074C34B6902BACF8E1FB07C0F</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
@@ -352,21 +352,21 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>3514F0386D80B97CCE2BAA01ACF5D861</key>
+		<key>36796DAF3301AD342F6C0566F90C10A3</key>
 		<dict>
-			<key>children</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>6F9EDCA661544A995B2CF55FBF70376B</string>
-				<string>E7133DC6F80FE9C009CF77B328C13972</string>
+				<string>0C59168CBABB5EE9E0E67954FA8F60B6</string>
+				<string>4EBD9315390950FE82D43F182A702D46</string>
+				<string>D35C0BBB99AD407EE50CFFE5A4D03CCA</string>
+				<string>82511985430A1F31877735154835748C</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>3904DBB38D8D5B8A2DF2D2C94A5EA31B</key>
 		<dict>
@@ -403,6 +403,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>44C92FEE84BB877B4C6D70853C1F4484</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ReachDepTest.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>4D9583A0CD4294237CD2CC6DC23B710E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -430,6 +443,13 @@
 			<string>Pods_ReachDepTest_Tests.framework</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>4EBD9315390950FE82D43F182A702D46</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FC4429A46C341064920852FFD3F09BB1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>5017364BDDF37211D77FEDD02E2AD368</key>
 		<dict>
@@ -557,6 +577,70 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>5B7CE27481A9EB2164A482DFA9ABCAC1</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>7E85CE6D6D45DC9D36AD81AD10F5CDCE</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-ReachDepTest_Tests/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-ReachDepTest_Tests/Pods-ReachDepTest_Tests.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_ReachDepTest_Tests</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
 		<key>5BF96A1C7C78611F18BBB63E96AEF10A</key>
 		<dict>
 			<key>fileRef</key>
@@ -606,6 +690,64 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>622C562B6DBF054EDC40E4A91D0BC900</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>00D292AC8D0AAE383E657285022D0486</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/ReachDepTest/ReachDepTest-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/ReachDepTest/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/ReachDepTest/ReachDepTest.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>ReachDepTest</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
 		<key>64A37CCE8B305B51BF5D9D5BBAE395A2</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -652,7 +794,7 @@
 		<key>6E2DB4A334D2C7902BF304E215D793B1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6F9EDCA661544A995B2CF55FBF70376B</string>
+			<string>7826EC83E2B1676E81F3B24390981CE3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -662,19 +804,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>6F9EDCA661544A995B2CF55FBF70376B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ReachDepTest.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6FC87632C923A972B35D13ACA407FA20</key>
 		<dict>
@@ -689,6 +818,23 @@
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>7242161911E17119D0CB27308B440823</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7826EC83E2B1676E81F3B24390981CE3</string>
+				<string>44C92FEE84BB877B4C6D70853C1F4484</string>
+				<string>EAB30E51799F33A16208FC45EF9F3438</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>727B1CCE859DCAFE3EACDF661AC018D4</key>
 		<dict>
@@ -709,6 +855,19 @@
 			<string>97ED63643C9571BA31CE0D243FBD1581</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>7826EC83E2B1676E81F3B24390981CE3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ReachDepTest.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>79E40C32690B1B5F11965F5439896378</key>
 		<dict>
@@ -795,6 +954,13 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
+		<key>82511985430A1F31877735154835748C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EAB30E51799F33A16208FC45EF9F3438</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>8312A02C222E868D7A9A07A863A83612</key>
 		<dict>
 			<key>fileRef</key>
@@ -817,13 +983,6 @@
 			<string>../..</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>894CE683E497D1D36D2416D9865B4968</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E7133DC6F80FE9C009CF77B328C13972</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>8A81A69CF7C89957F483DD8AEB4E159B</key>
 		<dict>
@@ -940,21 +1099,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>935EB91C2503A1A78BB290818585D41F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3514F0386D80B97CCE2BAA01ACF5D861</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ReachDepTest</string>
-			<key>path</key>
-			<string>ReachDepTest</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>944818D149F7C9C8A2CCB45FA657AF8C</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1006,13 +1150,6 @@
 			<string>Reachability-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E1A15FCB461AD8DBD9D7770C8AE8675</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC4429A46C341064920852FFD3F09BB1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>9E843ED7593C8FF40D156A8667729E17</key>
 		<dict>
@@ -1152,124 +1289,6 @@
 			<string>Reachability.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE54D2AEF5D501B5DF1F4089339E375E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>00D292AC8D0AAE383E657285022D0486</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/ReachDepTest/ReachDepTest-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/ReachDepTest/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/ReachDepTest/ReachDepTest.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>ReachDepTest</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B843F63B878B4A6EA7488A171704CB51</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7E85CE6D6D45DC9D36AD81AD10F5CDCE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-ReachDepTest_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-ReachDepTest_Tests/Pods-ReachDepTest_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_ReachDepTest_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -1413,6 +1432,13 @@
 			<string>Reachability.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D35C0BBB99AD407EE50CFFE5A4D03CCA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>44C92FEE84BB877B4C6D70853C1F4484</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -1631,7 +1657,7 @@
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>AE54D2AEF5D501B5DF1F4089339E375E</string>
+				<string>622C562B6DBF054EDC40E4A91D0BC900</string>
 				<string>E32A64A942DE74919814358A41AC1837</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
@@ -1649,19 +1675,6 @@
 			<string>PBXFileReference</string>
 			<key>path</key>
 			<string>Pods-ReachDepTest_Tests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E7133DC6F80FE9C009CF77B328C13972</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ReachDepTest.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1694,13 +1707,26 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>EAB30E51799F33A16208FC45EF9F3438</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Schwift.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>ED8D73AFDBE480555402A4AD4587B01B</key>
 		<dict>
 			<key>buildConfigurationList</key>
 			<string>E58FCCCF194CCA155C50D289FBAF9E10</string>
 			<key>buildPhases</key>
 			<array>
-				<string>0A5487F7895DA642809E8734462B2F54</string>
+				<string>36796DAF3301AD342F6C0566F90C10A3</string>
 				<string>6FC87632C923A972B35D13ACA407FA20</string>
 				<string>8F6A5A07F23E927F73557274AE36336D</string>
 			</array>
@@ -1764,7 +1790,7 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>935EB91C2503A1A78BB290818585D41F</string>
+				<string>153737781B4268C457D877021A9C55DF</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>

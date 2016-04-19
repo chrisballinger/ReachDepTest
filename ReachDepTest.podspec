@@ -38,7 +38,7 @@ s.osx.deployment_target = '10.8'
   s.subspec 'Standard' do |ss|
 
 ss.subspec 'Core' do |ssc|
-      ssc.source_files = 'ReachDepTest/Classes/ReachDepTest.{h,m}'
+      ssc.source_files = 'ReachDepTest/Classes/ReachDepTest.{h,m}', 'ReachDepTest/Classes/*.swift'
     end
     
     ss.subspec 'Extensions' do |sse|
