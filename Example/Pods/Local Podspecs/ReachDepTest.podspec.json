@@ -1,0 +1,56 @@
+{
+  "name": "ReachDepTest",
+  "version": "0.1.0",
+  "summary": "A short description of ReachDepTest.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ReachDepTest",
+  "license": "MIT",
+  "authors": {
+    "Chris Ballinger": "chrisballinger@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ReachDepTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.8",
+    "ios": "6.0",
+    "tvos": "9.0"
+  },
+  "module_map": "module.modulemap",
+  "default_subspecs": "Standard",
+  "dependencies": {
+    "Reachability": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Standard",
+      "subspecs": [
+        {
+          "name": "Core",
+          "source_files": "ReachDepTest/Classes/ReachDepTest.{h,m}"
+        },
+        {
+          "name": "Extensions",
+          "subspecs": [
+            {
+              "name": "RDTReach",
+              "platforms": {
+                "osx": "10.8",
+                "ios": "6.0"
+              },
+              "dependencies": {
+                "Reachability": [
+                  "~> 3"
+                ]
+              },
+              "source_files": "ReachDepTest/Classes/RDTReach.{h,m}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

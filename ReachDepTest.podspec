@@ -27,14 +27,35 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ReachDepTest.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+s.osx.deployment_target = '10.8'
+  s.ios.deployment_target = '6.0'
+  s.tvos.deployment_target = '9.0'
+  
+  s.module_map = "module.modulemap"
 
-  s.source_files = 'ReachDepTest/Classes/**/*'
-  s.resource_bundles = {
-    'ReachDepTest' => ['ReachDepTest/Assets/*.png']
-  }
+  s.default_subspecs = 'Standard'
+
+  s.subspec 'Standard' do |ss|
+
+ss.subspec 'Core' do |ssc|
+      ssc.source_files = 'ReachDepTest/Classes/ReachDepTest.{h,m}'
+    end
+    
+    ss.subspec 'Extensions' do |sse|
+      sse.subspec 'RDTReach' do |ssee|
+        ssee.osx.deployment_target = '10.8'
+        ssee.ios.deployment_target = '6.0'
+        ssee.dependency 'Reachability', '~> 3'
+        # ssee.dependency 'YapDatabase/Standard/Extensions/Views'
+        ssee.source_files = 'ReachDepTest/Classes/RDTReach.{h,m}'
+      end
+      
+    end
+  
+  end
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Reachability'
 end

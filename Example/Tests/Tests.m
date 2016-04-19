@@ -7,6 +7,7 @@
 //
 
 @import XCTest;
+@import ReachDepTest.RDTReach;
 
 @interface Tests : XCTestCase
 
@@ -28,7 +29,8 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    BOOL itWorks = [[RDTReach alloc] init].itWorks;
+    XCTAssertTrue(itWorks);
 }
 
 @end

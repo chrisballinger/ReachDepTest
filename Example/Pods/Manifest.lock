@@ -1,0 +1,29 @@
+PODS:
+  - Reachability (3.2)
+  - ReachDepTest (0.1.0):
+    - Reachability
+    - ReachDepTest/Standard (= 0.1.0)
+  - ReachDepTest/Standard (0.1.0):
+    - Reachability
+    - ReachDepTest/Standard/Core (= 0.1.0)
+    - ReachDepTest/Standard/Extensions (= 0.1.0)
+  - ReachDepTest/Standard/Core (0.1.0):
+    - Reachability
+  - ReachDepTest/Standard/Extensions (0.1.0):
+    - Reachability
+    - ReachDepTest/Standard/Extensions/RDTReach (= 0.1.0)
+  - ReachDepTest/Standard/Extensions/RDTReach (0.1.0):
+    - Reachability (~> 3)
+
+DEPENDENCIES:
+  - ReachDepTest (from `../`)
+
+EXTERNAL SOURCES:
+  ReachDepTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReachDepTest: 5ce0ce5cffd3941a8160a33110ab01348604f270
+
+COCOAPODS: 0.39.0

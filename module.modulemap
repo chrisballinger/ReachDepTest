@@ -1,0 +1,8 @@
+framework module ReachDepTest {
+	
+	header "ReachDepTest.h"
+	
+	explicit module RDTReach {
+		header "RDTReach.h"
+	}
+}
